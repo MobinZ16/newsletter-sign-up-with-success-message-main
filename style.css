@@ -1,0 +1,11 @@
+.first-class{
+    position: fixed;
+    top : 50%;
+    left: 50%;
+    background-color:white;
+    max-width: 720px;
+    border: 1px solid;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+
+}
