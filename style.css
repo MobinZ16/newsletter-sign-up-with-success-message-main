@@ -6,11 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #040320;
 }
 
 .container {
     display: flex;
+    padding: 1em;   
     max-width: 800px;
     background-color: white;
     border-radius: 10px;
@@ -85,4 +86,8 @@ body {
 .image-section img {
     max-width: 100%;
     height: auto;
+}
+
+.attribution{
+    color: white;
 }
