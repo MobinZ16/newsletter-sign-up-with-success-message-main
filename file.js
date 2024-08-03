@@ -1,5 +1,5 @@
 document.getElementById("myButton").onclick = function() {
-    window.location.href="D:/newsletter-sign-up-with-success-message-main/newsletter-sign-up-with-success-message-main/index.html2";
+    window.location.href="/#/newsletter-sign-up-with-success-message-main/index.html2";
 }
 
 document.getElementById("dismiss").onclick = function() {

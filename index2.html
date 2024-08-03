@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +17,21 @@
             Please open it and click the button inside to confirm your subscription.</p><br>
     
         <button id="dismiss">Dismiss message</button>
+        <script>
+            window.onload = function() {
+                var email = localStorage.getItem('userEmail');
+                if (email) {
+                    document.getElementById('userEmail').textContent = email;
+                } else {
+                    document.getElementById('userEmail').textContent = 'No email found';
+                }
+            };
+        </script>
+        <script>
+            document.getElementById("dismiss").onclick = function (){
+                window.location.href="index.html";
+            }
+        </script>
     </div>
 </body>
 </html>
